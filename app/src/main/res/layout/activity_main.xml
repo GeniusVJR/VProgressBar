@@ -42,11 +42,35 @@
 				/>
 
 		<com.francis.vprogressbar.view.HorizontalProgressbarWithProgress
+
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_marginTop="30dp"
 				android:padding="15dp"
 				android:progress="30"
+				app:progress_text_color="#44ff0000"
+				app:progress_unreach_color="#ffff0000"
+				/>
+
+		<com.francis.vprogressbar.view.RoundProgressBarWithProgress
+				android:id="@+id/id_progress02"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:padding="15dp"
+				android:progress="0"
+				app:radius="60dp"
+				app:progress_text_color="#44ff0000"
+				app:progress_unreach_color="#ffff0000"
+				/>
+
+		<com.francis.vprogressbar.view.RoundProgressBarWithProgress
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:padding="15dp"
+				android:progress="80"
+				app:radius="60dp"
 				app:progress_text_color="#44ff0000"
 				app:progress_unreach_color="#ffff0000"
 				/>
